@@ -1,0 +1,151 @@
+body {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+
+#first {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/cyberpunk1.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #ffffff;
+}
+
+.navbar-light .navbar-brand {
+  background-image: url("../../assets/img/kisspng-oneplus-5t-customer-service-oneplus-3t-5b1208ee4e0f67.9867607915279085903198.png");
+  width: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no repeat;
+  height: 50px;
+}
+
+#navcol {
+  font-size: 17px;
+  font-family: Aldrich, sans-serif;
+  filter: brightness(131%);
+}
+
+#oneplus {
+  margin-top: 15vh;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+#cyberpunk {
+  margin-top: 3vh;
+  filter: blur(0px);
+  opacity: 0.33;
+  font-weight: 401;
+}
+
+#first-button {
+  border-radius: 25px;
+  background-color: rgba(0,123,255,0);
+  border-color: #ffff;
+  border-width: medium;
+  font-size: 20px;
+}
+
+#price {
+  margin-bottom: 0px;
+  font-size: 26px;
+  margin: 0px 0px 0px;
+}
+
+#arrow-down {
+  font-size: 34px;
+  font-weight: normal;
+  color: rgba(255,255,255,0.69);
+}
+
+#video-and-stats {
+  text-align: center;
+}
+
+#video1 {
+  width: 90%;
+  height: 400px;
+}
+
+@media (min-width: 768px) {
+  #video1 {
+    width: 900px;
+    height: 500px;
+  }
+}
+
+#table-header {
+  text-align: left;
+  border-top: 0px;
+}
+
+#stats .cell-left {
+  text-align: left;
+  padding: 12px;
+  padding-left: 0px;
+  filter: invert(70%);
+  color: #212529;
+}
+
+#stats .cell-right {
+  text-align: right;
+  font-weight: bold;
+  filter: invert(70%);
+  margin: 12px;
+  margin-right: 0px;
+}
+
+#stats {
+  width: 90%;
+  font-size: 15px;
+  margin-bottom: 150px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #stats {
+    width: 600px;
+    font-size: 15px;
+    margin-bottom: 250px;
+    margin: 0 auto;
+  }
+}
+
+#third {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/oneplus-8t-cyberpunk-editiohn.webp");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center;
+}
+
+.cyberpunkbio {
+  margin-left: 80px;
+  margin-top: 70px;
+  font-size: 24px;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+#last {
+  width: 100%;
+  height: 100vh;
+}
+
+#other-products {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: Aubrey, cursive;
+}
+
+.carousel-item active img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
